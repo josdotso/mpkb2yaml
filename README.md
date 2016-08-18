@@ -14,7 +14,7 @@ can send easily send status updates via email.
 
 ## Install
 
-Install jq. (https://stedolan.github.io/jq/download/)
+Install [jq](https://stedolan.github.io/jq/download/).
 
 
     # On MacOS
