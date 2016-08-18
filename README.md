@@ -36,16 +36,18 @@ Install mpkb2yaml somewhere in your shell $PATH.
 ## Usage
 
 Create your MPKB with four so-named columns:
-- "4) Planned for Another Day"
-- "3) Planned for Tomorrow"
-- "2) Planned for Today"
-- "1) Done Since Last Status Update"
+
+    "4) Planned for Another Day"
+    "3) Planned for Tomorrow"
+    "2) Planned for Today"
+    "1) Done Since Last Status Update"
 
 Do and plan some work. Track it all on your new MPKB board.
-- "DEV: Present MVP1 of Rack Management REST API."
-- "OPS: Complete cable management in Rack #3."
-- "HR: Complete annual self-assessment."
-- "DEV: Attend Elixir meetup."
+
+    "DEV: Present MVP1 of Rack Management REST API."
+    "OPS: Complete cable management in Rack #3."
+    "HR: Complete annual self-assessment."
+    "DEV: Attend Elixir meetup."
 
 As you complete tasks, move them to column "1)" to signal that you've
 finished them.
