@@ -67,7 +67,7 @@ When you're asked for a status update, visit the MPKB UI and click
 
 At a \*NIX prompt (e.g. MacOS Terminal) run the following command.
 
-Note: Actual JSON file names will vary.a
+Note: Actual JSON file names will vary.
 
  
     cat export.json | mpkb2yaml
