@@ -44,7 +44,7 @@ Install mpkb2yaml somewhere in your shell $PATH.
 
 ## Usage
 
-Create your MPKB with four so-named columns:
+Create your MPKB with four so-prefixed (e.g. "1)" through "4)") columns:
 
 
     "4) Planned for Another Day"
