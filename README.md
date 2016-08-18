@@ -1,7 +1,9 @@
 
 # mpkb2yaml
 
-Pretty print "My Personal Kanban" JSON files as YAML
+Pretty print
+[My Personal Kanban][https://github.com/greggigon/my-personal-kanban]
+JSON files as YAML
 
 
 ## Overview
