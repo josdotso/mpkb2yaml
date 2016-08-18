@@ -1,0 +1,24 @@
+#!/bin/bash
+
+_json2yaml()
+{
+  # The _json2yaml function is based on:
+  # http://www.commandlinefu.com/commands/view/12219/convert-json-to-yaml
+  python -c 'import sys, yaml, json; yaml.safe_dump(json.load(sys.stdin), sys.stdout, default_flow_style=False, width=float("inf"))'
+}
+
+# All that follows is:
+# Copyright (c) 2016, Joshua Mark Dotson <vulariter-abc@yahoo.com>
+
+jq '.columns' \
+| jq 'del(.[].settings)' \
+| jq 'del(.[].cards[].color)' \
+| jq 'del(.[].cards[].details)' \
+| jq '[.[] | {(.name): [.cards[].name] }] | add' \
+| _json2yaml \
+| sed "s@^2)@\n2)@g" \
+| sed "s@^3)@\n3)@g" \
+| sed "s@^4)@\n4)@g" \
+| sed "s@''@\^\^@g" \
+| sed "s@'@@g" \
+| sed "s@\^\^@'@g"
