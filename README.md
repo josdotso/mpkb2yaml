@@ -94,6 +94,6 @@ Paste it in the body of a properly adressed email.
 Add any comments you'd like and send it.
 
 Now that another status update is complete, you should probably archive
-all cards in column "1)" on MPK. You can do this by clicking the icon on
+all cards in column "1)" on MPKB. You can do this by clicking the icon on
 each card that looks like a folder.
 
